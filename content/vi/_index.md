@@ -1,4 +1,4 @@
 ---
-title: "giới thiệu"
-author: "Hugo Authors"
+title: "tổng quan"
+author: "code on sunday"
 ---

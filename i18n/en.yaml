@@ -3,10 +3,10 @@
   translation: "code on sunday"
 
 - id: "home.recent_posts"
-  translation: "recent posts"
+  translation: "read recent posts:"
 
 - id: "home.see_all_posts"
-  translation: "all posts"
+  translation: "see all posts"
 
 ## SINGLE ##
 - id: "single.table_of_contents"

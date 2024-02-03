@@ -1,5 +1,5 @@
 ---
 title: about
 description: "Hugo, the world's fastest framework for building websites"
-author: Hugo Authors
+author: "code on sunday"
 ---

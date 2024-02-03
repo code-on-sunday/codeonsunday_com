@@ -41,7 +41,7 @@ disqusShortname = ''
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
-    name = 'code on sunday'
+    name = 'tổng quan'
     url = '/'
     weight = 10
   [[Languages.vi.menu.main]]
@@ -49,11 +49,6 @@ disqusShortname = ''
     name = 'bài viết'
     url = '/posts/'
     weight = 20
-  [[Languages.vi.menu.main]]
-    pageRef="about"
-    name = 'về tôi'
-    url = '/about/'
-    weight = 30
 
 [Languages.vi.params]
   sitename = "Code On Sunday"
@@ -83,12 +78,12 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "một blog về lập trình"
   name = "Code On Sunday"
-  description = "nhìn chung là dễ hiểu"
+  description = "viết bởi Code On Sunday"
 
 # Allow to override webmanifest options
 [Languages.vi.params.webmanifest]
-  name = "sitename" # will use "params.sitename" or "title" by default
-  short_name = "sitename" # same as name
+  name = "Code On Sunday" # will use "params.sitename" or "title" by default
+  short_name = "Code On Sunday" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
@@ -106,7 +101,7 @@ disqusShortname = ''
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
-    name = 'code on sunday'
+    name = 'overview'
     url = '/'
     weight = 10
   [[Languages.en.menu.main]]
@@ -114,11 +109,6 @@ disqusShortname = ''
     name = 'posts'
     url = '/posts/'
     weight = 20
-  [[Languages.en.menu.main]]
-    pageRef="about"
-    name = 'about'
-    url = '/about/'
-    weight = 30
 
 [Languages.en.params]
   sitename = "Code On Sunday blog"
@@ -126,7 +116,7 @@ disqusShortname = ''
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "easy to understand by nature"
+  description = "a blog about programming"
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
@@ -148,12 +138,12 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "a blog about programming"
   name = "Code On Sunday"
-  description = "easy to understand by nature"
+  description = "written by Code On Sunday"
 
 # Allow to override webmanifest options
 [Languages.en.params.webmanifest]
-  name = "sitename" # will use "params.sitename" or "title" by default
-  short_name = "sitename" # same as name
+  name = "Code On Sunday" # will use "params.sitename" or "title" by default
+  short_name = "Code On Sunday" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)

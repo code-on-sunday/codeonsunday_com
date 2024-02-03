@@ -1,12 +1,12 @@
 ## HOME ##
 - id: "home.home"
-  translation: "code on sunday"
+  translation: "tổng quan"
 
 - id: "home.recent_posts"
-  translation: "một số bài viết mới"
+  translation: "đọc mấy bài gần đây:"
 
 - id: "home.see_all_posts"
-  translation: "tất cả bài viết"
+  translation: "xem tất cả bài viết"
 
 ## SINGLE ##
 - id: "single.table_of_contents"
