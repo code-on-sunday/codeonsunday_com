@@ -90,27 +90,27 @@ disqusShortname = ''
   display = "standalone"
 
 ############################## English language ################################
-[Languages.en]
+[Languages.en-us]
   languageName = "English"
-  languageCode = "en"
+  languageCode = "en-us"
   contentDir = "content/en"
   weight = 2
 
-  [Languages.en.menu]
-  [[Languages.en.menu.main]]
+  [Languages.en-us.menu]
+  [[Languages.en-us.menu.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'overview'
     url = '/'
     weight = 10
-  [[Languages.en.menu.main]]
+  [[Languages.en-us.menu.main]]
     pageRef="posts"
     name = 'posts'
     url = '/posts/'
     weight = 20
 
-[Languages.en.params]
+[Languages.en-us.params]
   sitename = "Code On Sunday blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
@@ -133,7 +133,7 @@ disqusShortname = ''
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
 
-[Languages.en.params.author]
+[Languages.en-us.params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "a blog about programming"
@@ -141,7 +141,7 @@ disqusShortname = ''
   description = "written by Code On Sunday"
 
 # Allow to override webmanifest options
-[Languages.en.params.webmanifest]
+[Languages.en-us.params.webmanifest]
   name = "Code On Sunday" # will use "params.sitename" or "title" by default
   short_name = "Code On Sunday" # same as name
   start_url = "/" # will use homepage url by default
