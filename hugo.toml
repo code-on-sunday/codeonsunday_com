@@ -72,6 +72,8 @@ disqusShortname = ''
   # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
+  readingTime = "Thời gian đọc:"
+  minutes = "phút"
 
 [Languages.vi.params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
@@ -132,6 +134,8 @@ disqusShortname = ''
   # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
+  readingTime = "Reading time:"
+  minutes = "minutes"
 
 [Languages.en-us.params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
