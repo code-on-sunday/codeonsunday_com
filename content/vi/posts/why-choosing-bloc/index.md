@@ -1,7 +1,8 @@
 ---
-title: "Đắn Đo Mãi, Cuối Cùng Vẫn Chọn Bloc Cho Dự Án Flutter Tại Công Ty"
+title: "Đắn Đo Mãi, Vẫn Chọn Bloc Cho Dự Án Flutter Tại Công Ty"
 date: 2024-02-08T06:31:25+07:00
-description: "Khi khởi động một dự án Flutter cho công ty, mình đã mất khá nhiều công sức để quyết định nên sử dụng công cụ quản lý trạng thái nào (State Management). Trong Flutter, có 3 ứng viên sáng giá cho vị trí này là: Provider, Riverpod, và Bloc. Mình đã tìm hiểu và thử nghiệm cả 3 thư viện này theo những tiêu chí dưới đây. Chúng ta cùng xem kĩ hơn về từng tiêu chí này để hiểu lí do tại sao mình chọn Bloc cho dự án này."
+description: "Khi khởi động một dự án Flutter cho công ty, mình đã mất khá nhiều công sức để quyết định nên sử dụng công cụ quản lý trạng thái nào (State Management)."
+author: "code on sunday"
 ---
 
 Khi khởi động một dự án Flutter cho công ty, mình đã mất khá nhiều công sức để quyết định nên sử dụng công cụ **quản lý trạng thái** nào (State Management).

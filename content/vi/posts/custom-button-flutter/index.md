@@ -1,7 +1,7 @@
 ---
 title: "Chuyện về Cái Button trong Ứng Dụng cho Enterprise"
 date: 2024-02-06T06:37:21+07:00
-description: "Một cái button trong ứng dụng cho enterprise khác biệt như thế nào so với việc làm cho một tổ chức nhỏ và chúng ta có thể học được gì thông qua việc làm một cái button."
+description: "Làm một cái button trong ứng dụng cho enterprise khác biệt như thế nào so với cho một tổ chức nhỏ"
 author: "code on sunday"
 ---
 

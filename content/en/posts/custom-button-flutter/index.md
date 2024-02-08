@@ -1,7 +1,7 @@
 ---
 title: "Making a Button in Enterprise Applications: A Deeper Dive"
 date: 2024-02-06T06:37:21+07:00
-description: "A story about how making a button in an enterprise application is different from making one for a small organization, and what we can learn through the process of making a button."
+description: "A story about how making a button in an enterprise application is different from making one for a small organization."
 author: "code on sunday"
 ---
 

@@ -1,7 +1,8 @@
 ---
-title: "After Much Deliberation, Finally Choosing Bloc for Flutter Project at Company"
+title: "Finally Choosing Bloc for Flutter Project at Company"
 date: 2024-02-08T06:31:25+07:00
-description: "When starting a Flutter project for the company, I invested a considerable amount of effort in deciding which state management tool to use. In this article, I will share the criteria I used to evaluate the three worthy candidates: Provider, Riverpod, and Bloc."
+description: "When starting a Flutter project for the company, I invested a considerable amount of effort in deciding which state management tool to use."
+author: "code on sunday"
 ---
 
 When starting a Flutter project for the company, I invested a considerable amount of effort in deciding which **state management** tool to use.
