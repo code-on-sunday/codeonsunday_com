@@ -55,11 +55,11 @@ https://www.figma.com/community/plugin/1256972111705530093
 
 After exporting all the color variables using the aforementioned plugin, I got a JSON file that looks like this.
 
-![](content/en/posts/generate-color-tokens/images/Pasted%20image%2020240309091600.png)
+![](images/Pasted%20image%2020240309091600.png)
 
 I need to stay calm. After a simple collapse, the JSON file was reduced to only display 5 top-level information fields like this. I can almost guess their meaning now.
 
-![](content/en/posts/generate-color-tokens/images/Pasted%20image%2020240309091851.png)
+![](images/Pasted%20image%2020240309091851.png)
 
 The `variables` field contains the most data. Therefore, I filtered out 2 elements in the `variables` list and brought them along with the remaining fields into a new JSON file to create a much simplified version.
 

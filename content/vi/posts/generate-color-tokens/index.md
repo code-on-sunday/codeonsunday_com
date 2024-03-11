@@ -37,7 +37,7 @@ Danh sách color tokens khá dài, lại còn chia thành 4 themes như trong h�
 
 Vì vậy, mình sẽ tìm cách để tự động chuyển hóa toàn bộ định nghĩa color tokens này vào code theo đúng format của Dart.
 
-![[Pasted image 20240309085121.png]]
+![Carbon colors](images/Pasted%20image%2020240309085121.png)
 
 Nhờ kinh nghiệm sử dụng Figma, mình tìm ngay ra được bộ kit của Carbon Design System. Nó chứa design của tất cả các thành phần trong system, và tất nhiên cũng chứa một thành phần mình đang cần tìm đó là các color tokens.
 
@@ -45,7 +45,7 @@ Những tokens này được định nghĩa dưới dạng các `biến` của F
 
 https://www.figma.com/file/TXscEfrRKi7XKdjLW9S2tu/(v11)-All-themes---Carbon-Design-System-(Community)?type=design&node-id=169-0&mode=design&t=69bxO1lxCgV4ANV4-0
 
-![[Pasted image 20240309085844.png]]
+![Figma variables](images/Pasted%20image%2020240309085844.png)
 ## Làm Thế Nào Để Convert Tất Cả Biến Trong Figma Thành Dạng Text?
 
 Nếu chỉ là các biến trên UI như thế này, mình vẫn phải ngồi copy bằng tay từng cái một. Rất may mắn, mình đã tìm thấy một plugin của Figma cho phép convert tất cả biến này sang dạng JSON. Như vậy là ngon lắm rồi, vì sau đó mình có thể viết code để đọc file JSON và sinh ra code mới.
@@ -54,11 +54,11 @@ https://www.figma.com/community/plugin/1256972111705530093
 
 Sau khi export hết các biến màu sắc bằng plugin nói trên, mình thu được một file JSON trông như mã hóa này.
 
-![[Pasted image 20240309091600.png]]
+![](images/Pasted%20image%2020240309091600.png)
 
 Phải bình tĩnh đã. Sau động tác collapse đơn giản, file JSON đã được thu gọn lại chỉ còn hiển thị 5 trường thông tin ở tầng cao nhất như thế này. Đã có thể lờ mờ đoán ra ý nghĩa của chúng rồi.
 
-![[Pasted image 20240309091851.png]]
+![](images/Pasted%20image%2020240309091851.png)
 
 Trường thông tin chứ nhiều dữ liệu nhất là `variables`. Vì vậy, mình chỉ lọc ra 2 phần tử trong danh sách `variables`, đưa chúng cùng với những trường thông tin còn lại sang một file JSON mới để tạo ra một phiên bản đơn giản hóa hơn nhiều.
 
