@@ -50,7 +50,7 @@ Nếu các responsive style này được sử dụng nhiều trong design, mìn
 
 Bây giờ, việc của mình đơn giản là đọc từng bộ thông số tương ứng với từng style để viết code Flutter tương ứng. Công việc này tuy đơn giản nhưng khá là chán, tại sao mình không dùng ChatGPT chứ?
 
-![](content/vi/posts/devlog-2-creating-text-styles/images/Pasted%20image%2020240311215252.png)
+![](images/Pasted%20image%2020240311215252.png)
 
 Chỉ bằng 2 câu prompt đơn giản, mình đã lấy được code cho tất cả Utility styles.
 
