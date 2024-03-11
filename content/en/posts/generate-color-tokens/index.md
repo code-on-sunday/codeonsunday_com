@@ -37,7 +37,7 @@ The list of color tokens is quite long, and they are divided into 4 themes as sh
 
 Therefore, I will find a way to automatically transform all the definitions of color tokens into code in the correct Dart format.
 
-![[Pasted image 20240309085121.png]]
+![Carbon colors](images/Pasted%20image%2020240309085121.png)
 
 Using my experience with Figma, I immediately found the Carbon Design System kit. It contains the design of all the components in the system, and of course, it also includes the component I'm looking for - the color tokens.
 
@@ -45,7 +45,7 @@ These tokens are defined as `variables` in Figma. It's the concept of `variables
 
 https://www.figma.com/file/TXscEfrRKi7XKdjLW9S2tu/(v11)-All-themes---Carbon-Design-System-(Community)?type=design&node-id=169-0&mode=design&t=69bxO1lxCgV4ANV4-0
 
-![[Pasted image 20240309085844.png]]
+![Figma variables](images/Pasted%20image%2020240309085844.png)
 
 ## How to Convert All Figma Variables Into Text Format
 
@@ -55,11 +55,11 @@ https://www.figma.com/community/plugin/1256972111705530093
 
 After exporting all the color variables using the aforementioned plugin, I got a JSON file that looks like this.
 
-![[Pasted image 20240309091600.png]]
+![](content/en/posts/generate-color-tokens/images/Pasted%20image%2020240309091600.png)
 
 I need to stay calm. After a simple collapse, the JSON file was reduced to only display 5 top-level information fields like this. I can almost guess their meaning now.
 
-![[Pasted image 20240309091851.png]]
+![](content/en/posts/generate-color-tokens/images/Pasted%20image%2020240309091851.png)
 
 The `variables` field contains the most data. Therefore, I filtered out 2 elements in the `variables` list and brought them along with the remaining fields into a new JSON file to create a much simplified version.
 
